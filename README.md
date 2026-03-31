@@ -1,13 +1,14 @@
-# @pipeworx/mcp-crypto
+# mcp-crypto
 
-MCP server for cryptocurrency data — prices, market caps, and exchange rates.
+Crypto MCP — cryptocurrency prices and currency conversion
+
+Part of the [Pipeworx](https://pipeworx.io) open MCP gateway.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `get_crypto_price` | Get current price, market cap, and 24h change for a cryptocurrency |
-| `get_crypto_market` | Get top cryptocurrencies by market cap |
+| `get_crypto_market` | Get top cryptocurrencies by market cap with prices and 24h changes |
 | `get_exchange_rate` | Get the exchange rate between two fiat currencies |
 
 ## Quick Start
@@ -24,7 +25,7 @@ Add to your MCP client config:
 }
 ```
 
-Or run via CLI:
+Or use the CLI:
 
 ```bash
 npx pipeworx use crypto

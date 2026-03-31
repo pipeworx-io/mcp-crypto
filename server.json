@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/crypto",
+  "title": "crypto",
+  "description": "Crypto MCP — cryptocurrency prices and currency conversion",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/crypto",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-crypto",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@pipeworx/mcp-crypto",
+      "version": "0.1.0"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/crypto/mcp"
+    }
+  ]
+}

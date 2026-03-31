@@ -1,12 +1,3 @@
-/**
- * Crypto MCP — cryptocurrency prices and currency conversion
- *
- * Tools:
- * - get_crypto_price: single cryptocurrency price (CoinGecko)
- * - get_crypto_market: top cryptocurrencies by market cap (CoinGecko)
- * - get_exchange_rate: currency exchange rates (ExchangeRate API)
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -21,6 +12,16 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * Crypto MCP — cryptocurrency prices and currency conversion
+ *
+ * Tools:
+ * - get_crypto_price: single cryptocurrency price (CoinGecko)
+ * - get_crypto_market: top cryptocurrencies by market cap (CoinGecko)
+ * - get_exchange_rate: currency exchange rates (ExchangeRate API)
+ */
+
 
 const COINGECKO = 'https://api.coingecko.com/api/v3';
 
