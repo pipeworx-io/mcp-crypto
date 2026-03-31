@@ -1,0 +1,16 @@
+{
+  "name": "@pipeworx/mcp-crypto",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pipeworx",
+    "crypto"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
