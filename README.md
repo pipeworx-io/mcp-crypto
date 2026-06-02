@@ -1,14 +1,14 @@
 # mcp-crypto
 
-Crypto MCP — cryptocurrency prices and currency conversion
+Crypto MCP — cryptocurrency prices and currency conversion.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 250+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `get_crypto_market` | Get top cryptocurrencies ranked by market cap. Returns name, symbol, USD price, market cap, and 24h % change for each. |
+| `get_crypto_market` | Get top cryptocurrencies ranked by market cap. Returns rank, name, symbol, USD price, market cap, 24h volume, and 24h % change for each. |
 | `get_exchange_rate` | Convert between fiat currencies (e.g., USD to EUR). Returns conversion rate and timestamp. |
 
 ## Quick Start
@@ -25,7 +25,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 250+ data sources:
+Or connect to the full Pipeworx gateway for access to all 673+ data sources:
 
 ```json
 {
