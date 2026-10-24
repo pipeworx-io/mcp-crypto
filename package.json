@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-crypto",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Crypto MCP — cryptocurrency prices and currency conversion.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-7fd14125ade81b5e91c5842a73a02f99f5b5bec034b5911d06c24f98d19126e7",
-    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
+    "sourceHash": "v1-dbfd977a0ce506effcaa230a3fe587cf3c36bda7a26a5f8edc05feb34d5bb388",
+    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
   }
 }
