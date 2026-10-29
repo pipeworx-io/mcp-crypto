@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-crypto",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Crypto MCP — cryptocurrency prices and currency conversion.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-crypto": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "crypto"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-crypto.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/crypto",
   "pipeworx": {
-    "sourceHash": "v1-dbfd977a0ce506effcaa230a3fe587cf3c36bda7a26a5f8edc05feb34d5bb388",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "crypto",
+    "gatewaySlug": "crypto",
+    "sourceHash": "v1-e1e67a79fd62d04ff9867ef5b433c3d71af6626b42c2525ebe80116fdd5d2469",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
