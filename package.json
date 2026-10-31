@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-crypto",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Crypto MCP — cryptocurrency prices and currency conversion.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "crypto",
     "gatewaySlug": "crypto",
-    "sourceHash": "v1-e1e67a79fd62d04ff9867ef5b433c3d71af6626b42c2525ebe80116fdd5d2469",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-7333c7701315178e3d8bc4da34e0e07d9bf2b9c0c743d0b45544f7d2b0c1157d",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
